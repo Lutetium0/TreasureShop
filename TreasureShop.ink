@@ -19,7 +19,7 @@ You are in the shop and you see the owner is smiling.
     **Order beer.
       ->Positive
     **[Give up.]
-      You failed to find the treasure so you can't pay for your debt.
+      You failed to find the treasure so you can't pay off your debt.
       ->END
       
 =Positive
@@ -27,7 +27,7 @@ He give you a bottle of beer, it looks great.
 *[Ask for treasure.]
   "Where did hear such nonsense?" He is treating you as if you are a bit brainless.
   **[You have to give up.]
-  You failed to find the treasure so you can't pay for your debt.
+  You failed to find the treasure so you can't pay off your debt.
   ->END
 *Ask him how's his business going recently.
   ->Business
@@ -47,7 +47,7 @@ He give you a bottle of beer, it looks great.
 =NegativeFinal
   "Where did hear such nonsense?" He is treating you as if you are a bit brainless.
   *[You have to give up.]
-  You failed to find the treasure so you can't pay for your debt.
+  You failed to find the treasure so you can't pay off your debt.
   ->END  
 =PositiveFinal
   You still remember what you are coming for, so you ask him for information about the treasure.
