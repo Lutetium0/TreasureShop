@@ -52,5 +52,5 @@ He gives you a bottle of beer, it looks great.
 =PositiveFinal
   You still remember what you are coming for, so you ask him for information about the treasure.
   *[He is staring at you.]
-    "Alright, I will tell you." He says. "It is a long story so be paitient."
+    "Alright, I will tell you." He says. "It is a long story so be patient."
     ->END
