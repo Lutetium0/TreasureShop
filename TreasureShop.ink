@@ -11,7 +11,7 @@ You are in the shop and you see the owner is smiling.
 ->Positive
 =Negative
   "I dont't know what you are talking about."
-  You are ignored by the him.
+  You are ignored by him.
   *[Order beer]
     ->Positive
   *[Repeat your question about treasure.]
@@ -23,9 +23,9 @@ You are in the shop and you see the owner is smiling.
       ->END
       
 =Positive
-He give you a bottle of beer, it looks great.
+He gives you a bottle of beer, it looks great.
 *[Ask for treasure.]
-  "Where did hear such nonsense?" He is treating you as if you are a bit brainless.
+  "Where did you hear such nonsense?" He is treating you as if you are a bit brainless.
   **[You have to give up.]
   You failed to find the treasure so you can't pay off your debt.
   ->END
@@ -45,7 +45,7 @@ He give you a bottle of beer, it looks great.
   ->PositiveFinal
   
 =NegativeFinal
-  "Where did hear such nonsense?" He is treating you as if you are a bit brainless.
+  "Where did you hear such nonsense?" He is treating you as if you are a bit brainless.
   *[You have to give up.]
   You failed to find the treasure so you can't pay off your debt.
   ->END  
